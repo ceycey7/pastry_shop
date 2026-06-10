@@ -61,7 +61,7 @@ function renderVoting() {
                 const isVoted= voteData.userVoted===product.id;
 
                 return `
-                    <div class="vote-card${isVoted? 'vote-card--selected': ''}">
+                    <div class="vote-card ${isVoted ? 'vote-card--selected': ''}">
                         <div class="vote-card__category">${product.category}</div>
                         <h3 class="vote-card__name">${product.name}</h3>
                         <p class="vote-card__description">${product.description}</p>

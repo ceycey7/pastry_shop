@@ -20,7 +20,7 @@ function renderOffers() {
                 <span class="offer-card__badge">${product.discount}%OFF</span>
                 <div class="offer-card__category">${product.category}</div>
                 <h3 class="offer-card__name">${product.name}</h3>
-                <p class=offer-card__description">${product.description}</p>
+                <p class="offer-card__description">${product.description}</p>
                 <div class="offer-card__prices">
                     <span class="offer-card__original-price">$${product.price.toFixed(2)}</span>
                     <span class="offer-card__discounted-price">$${discountedPrice}</span>

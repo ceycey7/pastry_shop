@@ -1,7 +1,7 @@
-const defaultReviews= [
+const defaultReviews = [
     {
         id: 1,
-        userName: "/istediğin birinin adi/",
+        userName: "Bellamy Blake",
         rating: 5,
         date: "2026-05-28",
         comment: "The Chocolate Layer Cake is absolute perfection! The ganage is rich but not overwhelming."
@@ -12,6 +12,20 @@ const defaultReviews= [
         rating: 4,
         date: "2026-06-02",
         comment: "The Sourdough Loaf has an amazing crust and soft interior. Perfect for breakfast."
+    },
+    {
+        id: 3,
+        userName: "Sophia Martinez",
+        rating: 5,
+        date: "2026-06-09",
+        comment: "Absolutely love this place! The chocolate eclairs are out of this world, and the staff is incredibly friendly. It has easily become my favorite spot in town."
+    },
+    {
+        id: 4,
+        userName: "Liam Johnson",
+        rating: 4,
+        date: "2026-06-10",
+        comment: "The lemon tarts have the perfect balance of sweet and tangy. Pair it with their cold brew coffee for the best afternoon treat. Will definitely be back for more!"
     }
 ];
 

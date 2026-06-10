@@ -34,9 +34,10 @@
             </nav>
     
             <button class="cart-toggle" id="cartToggle" aria-label="Open cart">
-                 <i class="fa-solid fa-bag-shopping"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="cart-text">Cart</span> 
                 <span class="cart-badge" id="cartBadge">0</span>
-            </button>
+            </button> 
             <button class="btn-clear-cart" id="cartClearAll" aria-label="Clear cart">
                  <i class="fa-solid fa-trash"></i>
             </button>
@@ -50,12 +51,16 @@
 
     <section id="home" class="hero">
         <div class="hero-inner container">
+            <div class="hero-icon-centered" aria-hidden="true">
+                <i class="fa-solid fa-cake-candles"></i>
+            </div>
+
             <p class="hero-eyebrow">
                 <i class="fa-solid fa-star"></i> Freshly baked every morning
             </p>
             <h1 class="hero-title">
-                slogan<br/>
-                <em>slogan</em>
+             Where Every Pastry Is<br>
+            <em>A Masterpiece</em>
             </h1>
             <div class="hero-actions">
                 <a href="#menu" class="btn btn-primary">
@@ -65,9 +70,6 @@
                     <i class="fa-solid fa-star"></i>Vote for Today's Special
                 </a>
             </div>
-        </div>
-        <div class="hero-deco hero-deco--tl" aria-hidden="true">
-            <i class="fa-solid fa-cake-candles"></i>
         </div>
     </section>
 
@@ -100,20 +102,20 @@
     </section>
 
     <aside class="cart-sidebar" id="cartSidebar" aria-hidden="true">
-    <div class="cart-sidebar__header">
-        <h2 class="cart-sidebar__title">Your Cart</h2>
-        <div class="cart-sidebar__header-actions">
-            <button class="btn-clear-cart" id="cartClearAll">
-                <i class="fa-solid fa-trash"></i>
-            </button>
-            <button class="cart-sidebar__close" id="cartClose" aria-label="Close cart">
-                <i class="fa-solid fa-xmark"></i>
-            </button>
+        <div class="cart-sidebar__header">
+            <h2 class="cart-sidebar__title">Your Cart</h2>
+            <div class="cart-sidebar__header-actions">
+                <button class="btn-clear-cart" id="cartClearAll">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+                <button class="cart-sidebar__close" id="cartClose" aria-label="Close cart">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
         </div>
-    </div>
-    <div class="cart-sidebar__body" id="cartBody"></div>
-    <div class="cart-sidebar__footer" id="cartFooter"></div>
-</aside>
+        <div class="cart-sidebar__body" id="cartBody"></div>
+        <div class="cart-sidebar__footer" id="cartFooter"></div>
+    </aside>
 
     <footer class="site-footer" id="contact">
         <div class="footer-inner container">
